@@ -3,3 +3,5 @@ __pychache__
 cmake-build-debug
 Scripts
 CMakeLists.txt
+test
+zips
