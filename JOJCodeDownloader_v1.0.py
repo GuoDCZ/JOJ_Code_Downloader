@@ -20,7 +20,7 @@ def main():
         config = json.load(open('./config.json'))
         url = config[config['useWhich']]
         section = int(config['section'])  # "0" for no limit, "1" for S2-s1, "2" for S2-s2, "3" for 9/27's lab
-        sid = "4f1b7eac1ce96fa26490aa035488b5dae52f7295dedde7c6a6ebaf10340725a2"
+        sid = "" # your cookie
         cookie = {"save": "1", "sid": sid}
 
         if section > 0:
